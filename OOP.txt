@@ -1,0 +1,100 @@
+#CS104: DATA STRUCTURES AND OBJECT-ORIENTED DESIGN
+
+#you should know:
+- structural programming (as opposed to functional programming)
+(Or as opposed to Object-Oriented programming) most students think
+about code that gets passed some data and processes them. 
+- dynamic memory management
+(Dyanamic memory is allocated onto the stack by the OS, providing 
+	virtualization of physical resources)
+- Recursion (Recursion can be modeled by mathematical induction)
+	(as opposed to scientific induction/where we accept the whole
+		and make a general conjecture)
+
+#Motivation for OBJECT-ORIENTED DESIGN from the point of view of
+IMPLEMENTING DATA STRUCTURES.
+
+- focus on analysis
+- focus on allusions to advanced topics
+
+1. Why DATA STRUCTURES and OBJECT-ORIENTED thnking.
+	1. Basic features of programming: Data Types, Arithmetic,
+		Loops, Tests, Pointers, and Functions...
+	1A. In principle, it is enough to have just While loops,
+		if tests, integers, and arithmetic... emphasis on the WHAT. 
+	2.  How is data transformed in the process of CODE?
+		EXAMPLE: Lets say I get a list of all the names and emails
+		of students at University. What if the names are random,
+		as opposed to what if the names are sorted alphabetically?
+		It would be a lot harder to find a particular student's email
+		by his or her name...
+	2A. This example shows the centerpiece of what we need to learn:
+		"how to organize data to support the operations we need"...
+		-We can think of "OPERATIONS" as equivalent to the notion of computation, or carrying out some action to generate a representation of the state of DATA.
+		-In our EXAMPLE, the data, consisting of names and emails, 
+		is represented in the form of a list, an example of a data structure. 
+	3.  A data structure is a form that represents data in a definite way, 
+		with fixed OPERATIONS. The form determines the possible operations. 
+		The data strcuture forces us to interact with the data in a definite way.
+		-In our University example, the name corresponds to a specific
+		email, and a given email corresponds to a particular name. Given
+		a name, we can use it as the key to find the corresponding value. 
+		Likewise, the key could be the email. A list of a key-value pairs is 
+		called a dictionary/map. If there is a pair of students with the 
+		same name, the key will correspond to 2 different emails.
+	3A. The term "Map" denotes an abstract data type that describes the 
+		functionality of the data structure. Think of Map by just the function
+		it provides: add, remove, lookup. How it stores data internally is 
+		secondary-that is part of the implementation. 
+		
+		ABSTRACT DATA TYPE: the combination of data and code, with a well-specified interface of functions to call. 
+	
+		OBJECT: consists of data and code. 
+	
+		The description of the list as sorted or unsorted describes how that functionality is achieved. A sorted list of key value pairs can technically be map. An unsorted list of key value pairs can also technically be called a map.
+		
+	4.  ABSTRACTION: SEPARATING THE 'WHAT' FROM THE 'HOW'. What am I? A fixed
+		condition of time and space. An ego. How did I get here? Based on my
+		data structure, or implementation of knowledge. The surrendering of the
+		"what am I?" to the "Here I am". I will always try to figure out
+		what I am by deductive thought, but the what will always depend on the
+		how. For example, what are you? is a question that can only be answered
+		in the conscious, where as the notion of how did you arrive to knowing
+		what you are is a question that can only be explained by the unconscious.
+		One's guiding principles for life, that exist independently of time and space, may give us insight into the data structure of our self. A data structure that emphasizes the totality of the whole is distinguished from a data structure that is fixated on a small component of the data, such as a rule based on a rule of thumb of "what I am or was" that limits the form in which data can synthesize. 
+		-even in our transcendental and active imagination states, the form of 
+		data still exists, and it is the functions of these particular forms
+		that enable a force to generate an abstract creation. Other forms of 
+		data that exist in our unconscious and conscious unconscious also
+		influence the potential actions that the form might inhabit or manifest, 
+		as one is fixed upon the "WHAT" what what, and never understanding
+		how the what can come about. In this case the structural integrity of the data structure lacks functionality and effective implementation, and the abstract representation thus falters.   
+	4A. In our example, to denote a "Map/Dictionary" as an abstract data type is to generalize its core functionality. 
+		We scrutinize whether the list is sorted/unsorted to analyze and examine the underlying data strucutre that implementats the	functionality of the Abstract Data Type. Why not data structure? Because a list is a data structure, but a map is an abstract data type derived from a list, a data structure, which can be implemented as either sorted or unsorted. 
+		-We can now think of a data structure as having functions that effect
+		the processing data. A data structure inherits the form of potential actions in which data can be synthesized. A data structure is
+		similar to a doctrine, where a consistent ideazation of data, manifests the inherrent form, which can be represented as a general "function type", or abstract data type. How we get to the abstract form is in the data structure, and the ability to go from the abstract to the form is the essence of abstraction. 
+		-The force of form, or force of a data strucutre, is like the 
+		principle that defines a data strucutre to be different from another
+		form of the same strucuture of data, but which can function differently.
+	5.  An array in which you can only add things at the end is different from one in which you are allowed to overwrite everywhere, even though the way of actually storing data is the same.
+		Objects are like living entities in our minds, which determine our path. If you do not make peace with the entities in your mind, they will manifest the program of the objective psyche. 
+		Thinking in terms of OBJECT-ORIENTED design and ABSTRACT DATA TYPES helps us to achive encapsulation. This way, an object can interface with many other objects, and if we happen to need to change the object, it can still interface with others but its implementation might change. Encapsulation helps us achieve modularity, ensuring that different pices of code can be analyzed and test in isolation more easily.
+
+	SUMMARY: 
+		-learn techniques for implementing data strucutres to provide efficient functionality. 
+		-learn how to separate the "what" from the "how" in code design and utilize abstract data types to specify functionality.
+		-understand how the implementation of datatypes relates to object-oriented design.  
+
+2. MEMORY and its allocation
+3. STRINGS and Streams. 
+4. Recursion
+5. Linked Lists
+6. ABSTRACT DATA TYPES
+7. CLASSES and OBJECTS
+8. Analysis of RUNNING TIME
+9. ARRAY Lists
+10.Amortized RUNNING TIME
+11.Stacks and Queues
+12.Operator Overloading and Copy Constructors
+
